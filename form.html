@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>South Asian University</title>
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:Blue;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 100%; /* Set form width to 100% */
+            max-width: 400px;
+            margin: 0 auto; /* Center the form horizontally */
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 77px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: Green;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 55px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+legend {
+            font-size: 24px; /* Adjust the font size as needed */
+	    color: Blue;
+            margin-bottom: 1px; /* Increase the margin if necessary */
+font-weight: bold;
+        
+        }
+    </style>
+
+</head>
+<body>
+
+  <form>
+
+    <fieldset>
+    <legend>South Asian University</legend>
+     <p>
+
+Refund of Admission Fees
+</p>
+   <p>
+
+         First name: <input type = "text" name = "fname" />
+  </p>
+   <p>
+         Last name: <input type = "text" name = "lname" />
+  </p>
+ 
+   <p>
+         <input type = "radio" name = "Gender" value = "Male"> Male
+         <input type = "radio" name = "Gender" value = "Female"> Female
+</p>
+
+<p>
+Programme: <select id="Programme" name="Programme">
+<option value="Select">Select</option>
+            <option value="Masters">Masters</option>
+            <option value="PhD">PhD</option>
+           
+        </select>
+
+</p>
+
+<p>
+Department/Faculty <select id="Department/Faculty" name="Department/Faculty">
+<option value="Select">Select</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="PhD">Biotechnology</option>
+<option value="Computer Science">Computer Science</option>
+            <option value="Economics">Economics</option>
+<option value="International Relations">International Relations</option>
+            <option value="Legal Studies">Legal Studies</option>
+<option value="Sociology">Sociology</option>
+           
+        </select>
+
+</p>
+ 
+<p>
+Registration No.: <input type = "text" name = "ID" />
+</p>
+
+<p>
+Email ID: <input type = "text" name = "EmailId" />
+</p>
+
+<p>
+Phone No.: <input type = "text" name = "Phone" />
+</p>
+ 
+<p>
+Amount Paid (INR): <input type = "text" name = "Amount" />
+</p>
+ 
+<p>
+Transaction ID: <input type = "text" name = "TrId" />
+</p>
+<p>
+                Upload Payment Recipt: <input type="file" name="image" accept="image/*">
+            </p>
+ 
+ <p>
+      <input type = "submit" name = "submit" value = "Submit" />
+    </p>
+</fieldset>
+</form>
+</body>
+</html>
